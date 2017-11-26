@@ -3,10 +3,8 @@
 # Make ls commands great again
 #alias l='ls -lF -G'
 #alias ld='ls -ld'
-alias listcb='ps -ef | grep chaturbate --color=auto'
-#alias ll='ls -l'
-#alias lt='ls -At1 && echo "------Oldest--"'
-#alias ltr='ls -Art1 && echo "------Newest--"'
+alias lt='ls -At1 && echo "------Oldest--"'
+alias ltr='ls -Art1 && echo "------Newest--"'
 
 # macOS shortcuts
 alias rebootme='shutdown -r now'
@@ -20,6 +18,7 @@ alias brewski='brew update && brew upgrade && brew cleanup && brew doctor'
 alias cpu='top -o cpu'
 #alias flush='dscacheutil -flushcache && killall -HUP mDNSResponder'
 alias fuck='sudo'
+alias listcb='ps -ef | grep chaturbate --color=auto'
 alias localip='ipconfig getifaddr en0'
 alias mem='top -o rsize'
 alias path='echo -e ${PATH//:/\\n}'
@@ -58,6 +57,7 @@ alias l="ls -lF ${colorflag}"
 
 # List all files colorized in long format, including dot files
 alias la="ls -laF ${colorflag}"
+alias ll="ls -laF $(colorflag)"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
