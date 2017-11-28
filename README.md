@@ -1,7 +1,9 @@
 # dotfiles
 Stachowski did dotfiles (shamelessly stolen from Zach Holman)
 
-Bash-it wasn't fast enough, so this is what I ended up with at the end.  If you decided to use it and have recommendations, please let me know how to make it better.
+Bash-it wasn't fast enough, so I added the lightning bolt for speed.  I dare someone to try and make it faster "without adding more lightning bolts" of course.  
+
+Use at your own risk and if you like it.  Thank the two people at the bottom.  
 
 ![My iTerm2](https://preview.ibb.co/kSAySm/Screenshot_2017_11_28_07_47_14.png)
 
