@@ -1,5 +1,7 @@
 # dotfiles
-Stachowski does dotfiles (shamelessly stolen from Zach Holman)
+Stachowski did dotfiles (shamelessly stolen from Zach Holman)
+
+Bash-it wasn't fast enough, so this is what I ended up with at the end.  If you decided to use it and have recommendations, please let me know how to make it better.
 
 ![My iTerm2](https://preview.ibb.co/kSAySm/Screenshot_2017_11_28_07_47_14.png)
 
