@@ -1,7 +1,7 @@
 # dotfiles
 Stachowski does dotfiles (shamelessly stolen from Zach Holman)
 
-![My iTerm2](https://www.dropbox.com/s/66lhn0tzohgyrnv/Screenshot%202017-11-28%2007.47.14.png?dl=0)
+![My iTerm2](https://preview.ibb.co/kSAySm/Screenshot_2017_11_28_07_47_14.png)
 
 Special Thanks to:
 
