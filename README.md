@@ -1,7 +1,7 @@
 # dotfiles
 Stachowski did dotfiles (shamelessly stolen from Zach Holman)
 
-Bash-it wasn't fast enough, so I added the lightning bolt for speed.  I dare someone to try and make it faster "without adding more lightning bolts" of course.  
+Bash-it wasn't fast enough, so I added the lightning bolt for speed.  I dare someone to try and make it faster "without adding more lightning bolts" -impossible.
 
 Use at your own risk and if you like it.  Thank the two people at the bottom.  
 
