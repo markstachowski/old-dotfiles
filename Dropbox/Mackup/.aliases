@@ -3,6 +3,7 @@
 # Make ls commands great again
 #alias l='ls -lF -G'
 #alias ld='ls -ld'
+alias ll='ls -lF -G'
 alias lt='ls -At1 && echo "------Oldest--"'
 alias ltr='ls -Art1 && echo "------Newest--"'
 
@@ -15,18 +16,19 @@ alias unrestrict='xattr -c'
 
 # My personal aliases
 alias brewski='brew update && brew upgrade && brew cleanup && brew doctor'
+alias cbl='ps -ef | grep chaturbate --color=auto'
 alias cpu='top -o cpu'
 #alias flush='dscacheutil -flushcache && killall -HUP mDNSResponder'
 alias fuck='sudo'
-alias listcb='ps -ef | grep chaturbate --color=auto'
 alias localip='ipconfig getifaddr en0'
 alias mem='top -o rsize'
 alias path='echo -e ${PATH//:/\\n}'
 alias rebash='source ~/.bash_profile'
 alias showbash='cat ~/.bash_profile'
 alias vibash='vi ~/.bash_profile'
-alias ytU='youtube-dl -U'
-alias ytdl='youtube-dl'
+alias ytd='youtube-dl'
+alias ytdp='youtube-dl --prefer-ffmpeg'
+alias ytdU='youtube-dl -U'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
