@@ -26,9 +26,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias rebash='source ~/.bash_profile'
 alias showbash='cat ~/.bash_profile'
 alias vibash='vi ~/.bash_profile'
-alias ytd='youtube-dl'
-alias ytdp='youtube-dl --prefer-ffmpeg'
-alias ytdU='youtube-dl -U'
+alias yt='youtube-dl'
+alias ytP='youtube-dl --prefer-ffmpeg'
+alias ytU='youtube-dl -U'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
