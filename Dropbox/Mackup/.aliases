@@ -1,25 +1,23 @@
 #!/usr/bin/env bash
 
-# Make ls commands great again
-#alias l='ls -lF -G'
-#alias ld='ls -ld'
-alias ll='ls -lF -G'
-alias lt='ls -At1 && echo "------Oldest--"'
-alias ltr='ls -Art1 && echo "------Newest--"'
-
 # macOS shortcuts
 alias rebootme='shutdown -r now'
+alias macupdate='softwareupdate -i -a'
 
 # un-macOS permissions
 alias ax='chmod a+x'
 alias unrestrict='xattr -c'
 
+# Show/hide hidden files (macOS 10.13)
+alias showhidden="defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder"
+alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder"
+
 # My personal aliases
-alias brewski='brew update && brew upgrade && brew cleanup && brew doctor'
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 alias cbl='ps -ef | grep chaturbate --color=auto'
 alias cpu='top -o cpu'
 #alias flush='dscacheutil -flushcache && killall -HUP mDNSResponder'
-alias fuck='sudo'
+alias _="sudo"
 alias localip='ipconfig getifaddr en0'
 alias mem='top -o rsize'
 alias path='echo -e ${PATH//:/\\n}'
@@ -29,6 +27,30 @@ alias vibash='vi ~/.bash_profile'
 alias yt='youtube-dl'
 alias ytP='youtube-dl --prefer-ffmpeg'
 alias ytU='youtube-dl -U'
+
+# Some aliases for Homebrew
+alias bup='brew update && brew upgrade'
+alias bupc='brew update && brew upgrade --cleanup'
+alias bout='brew outdated'
+alias bin='brew install'
+alias brm='brew uninstall'
+alias bcl='brew cleanup'
+alias bls='brew list'
+alias bsr='brew search'
+alias binf='brew info'
+alias bdr='brew doctor'
+alias bed='brew edit'
+
+# Some aliases for Homebrew Cask
+alias bcin='brew cask install'
+alias bcrm='brew cask uninstall'
+alias bczp='brew cask zap'
+alias bccl='brew cask cleanup'
+alias bcsr='brew cask search'
+alias bcls='brew cask list'
+alias bcinf='brew cask info'
+alias bcdr='brew cask doctor'
+alias bced='brew cask edit'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -44,6 +66,13 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias g="git"
+
+# Make ls commands great again
+#alias l='ls -lF -G'
+#alias ld='ls -ld'
+alias ll='ls -lF -G'
+alias lt='ls -At1 && echo "------Oldest--"'
+alias ltr='ls -Art1 && echo "------Newest--"'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

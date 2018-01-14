@@ -54,3 +54,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 # Added iTerm2 bash integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+export PATH=/usr/local/opt/python/libexec/bin:/Users/markstachowski/.rbenv/bin:/Users/markstachowski/.rbenv/shims:/usr/local/sbin:/Users/markstachowski/bin:/Users/markstachowski/.rbenv/bin:/Users/markstachowski/.rbenv/shims:/usr/local/sbin:/Users/markstachowski/bin:/Users/markstachowski/.rbenv/bin:/Users/markstachowski/.rbenv/shims:/usr/local/sbin:/Users/markstachowski/bin:/Users/markstachowski/.rbenv/bin:/Users/markstachowski/.rbenv/shims:/usr/local/sbin:/Users/markstachowski/bin:/Users/markstachowski/.rbenv/bin:/Users/markstachowski/.rbenv/shims:/usr/local/sbin:/Users/markstachowski/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+export PATH="$HOME/.cargo/bin:$PATH"
